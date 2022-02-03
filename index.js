@@ -16,7 +16,15 @@ function createFareMultiplier(int) {
     }
 }
 
-const fareDoubler = createFareMultiplier(2)
+// fareDoubler() — Declare a variable with const and assign a function returned by createFareMultiplier() to it. 
+// Invoke createFareMultiplier() in such a way that the new fareDoubler() function accepts a fare as its lone argument
+// and doubles it.
+
+const chris = function fareDoubler(fare) {
+    return createFareMultiplier(2) 
+}
+
+// const fareDoubler = createFareMultiplier(2)
     
 const fareTripler = createFareMultiplier(3)
 
